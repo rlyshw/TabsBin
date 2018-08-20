@@ -1,0 +1,28 @@
+{
+
+  "manifest_version": 2,
+  "name": "TabsBin",
+  "version": "1.0",
+
+  "description": "Organize your tabs into bins",
+  "homepage_url":"https://github.com/rlyshw/tabsbin",
+
+  "icons": {
+    "48": "icons/bucket_48.png",
+    "96": "icons/bucket_96.png"
+  },
+
+  "browser_action":{
+    "default_icon":"icons/bucket.svg",
+    "default_title":"TabsBin"
+  },
+  "sidebar_action":{
+    "default_icon":"icons/bucket.svg",
+    "defulat_title":"TabsBin",
+    "default_panel":"sidebar/sidebar.html"
+  },
+  "background":{
+    "scripts":["background.js"]
+  }
+
+}
